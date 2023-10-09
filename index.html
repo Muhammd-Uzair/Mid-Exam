@@ -28,9 +28,9 @@
         <a href="#home">home</a>
         <a href="#speciality">speciality</a>
         <a href="#popular">popular</a>
-        <a href="#gallery">gallery</a>
-        <a href="#review">review</a>
+        <a href="#Contact">Contact</a>
         <a href="#order">order</a>
+        <a href="#login">login</a>
     </nav>
 
 </header>
@@ -265,101 +265,11 @@
 <!-- gallery section starts  -->
 
 
-<section class="gallery" id="gallery">
 
-    <h1 class="heading"><span> explore </span> </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <img src="images/g-1.jpg" alt="">
-            <div class="content">
-                <h3>burger</h3>
-                <p>american mc aloo tikki ₹59<br>
-                   chicken cheese burger ₹79</p>
-                <a href="#order" class="btn">ordern now</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/g-2.jpg" alt="">
-            <div class="content">
-                <h3>sandwhich</h3>
-                <p>veg grilled sandwich ₹49<br>
-                   double cheese grilled ₹89</p>
-                <a href="#order" class="btn">ordern now</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/g-3.jpg" alt="">
-            <div class="content">
-                <h3>frankie</h3>
-                <p>veg frankie roll ₹29<br>
-                   veg paneer frankie roll ₹49</p>
-                <a href="#order" class="btn">ordern now</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/g-4.jpg" alt="">
-            <div class="content">
-                <h3>cup cake</h3>
-                <p>chocolate bourbon ₹49<br>
-                   sprinkles strawberry ₹39</p>
-                <a href="#order" class="btn">ordern now</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/g-5.jpg" alt="">
-            <div class="content">
-                <h3>maggi</h3>
-                <p>masala masti ₹49<br>
-                   masala with cheese ₹69</p>
-                <a href="#order" class="btn">ordern now</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/g-6.png" alt="">
-            <div class="content">
-                <h3>momos</h3>
-                <p>vegetable n paneer ₹49<br>
-                fried chicken ₹89</p>
-                <a href="#order" class="btn">ordern now</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/g-7.jpg" alt="">
-            <div class="content">
-                <h3>cold coffee</h3>
-                <p>cold coffe ₹39<br>
-                   cold coffee with ice-cream ₹69</p>
-                <a href="#order" class="btn">ordern now</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/g-8.jpg" alt="">
-            <div class="content">
-                <h3>pasta</h3>
-                <p>masala masti pasta ₹49<br>
-                   cheese masala pasta ₹69</p>
-                <a href="#order" class="btn">ordern now</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/s-9.jpg" alt="">
-            <div class="content">
-                <h3>garlic bread</h3>
-                <p>pull-apart garlic bread ₹59<br>
-                cheese garlic bread ₹69</p>
-                <a href="#order" class="btn">ordern now</a>
-            </div>
-        </div>
-
-    </div>
-
-</section>
 
 <!-- gallery section ends -->
 
-<section class="about" id="about">
+<section class="Contact" id="Contact">
 
     <h1 class="heading"><span> Contact </span> </h1>
 
@@ -475,9 +385,45 @@
 
 </section>
 
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+    <h1 class="heading"><span>order now</span></h1>
+
+    <div class="row">
+        
+        <div class="image">
+            <img src="images/order.jpg" alt="">
+        </div>
+
+        <form action="add.php"  method="POST">
+
+            <div class="inputBox">
+                <input type="text" placeholder="name" name="fullname" required>
+                <input type="email" placeholder="email" name="email" required>
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="number" name="phone" required>
+                <input type="text" placeholder="food name" name="fdname" required>
+            </div>
+
+            <textarea placeholder="address" cols="30" rows="10" name="location" required></textarea>
+
+            <input type="submit" value="order now" class="btn">
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- order section ends -->
+
 <!-- review section starts  -->
 
-<section class="review" id="review">
+<section class="login" id="login">
 
     <h1 class="heading"><span> our customers reviews</span> </h1>
 
@@ -526,41 +472,8 @@
 
 <!-- review section ends -->
 
-<!-- order section starts  -->
 
-<section class="order" id="order">
 
-    <h1 class="heading"><span>order now</span></h1>
-
-    <div class="row">
-        
-        <div class="image">
-            <img src="images/order.jpg" alt="">
-        </div>
-
-        <form action="add.php"  method="POST">
-
-            <div class="inputBox">
-                <input type="text" placeholder="name" name="fullname" required>
-                <input type="email" placeholder="email" name="email" required>
-            </div>
-
-            <div class="inputBox">
-                <input type="number" placeholder="number" name="phone" required>
-                <input type="text" placeholder="food name" name="fdname" required>
-            </div>
-
-            <textarea placeholder="address" cols="30" rows="10" name="location" required></textarea>
-
-            <input type="submit" value="order now" class="btn">
-
-        </form>
-
-    </div>
-
-</section>
-
-<!-- order section ends -->
 
 <!-- footer section  -->
 
